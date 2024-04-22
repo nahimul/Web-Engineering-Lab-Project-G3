@@ -17,81 +17,51 @@
                 <h1> University of Rajshahi</h1>
             </div>
             <div class="nav-right">
-                <a class="nav-home border" href="#">Home</a>
-                <a class="nav-info border" href="personal_info.html">Personal Information</a>
+                <a class="nav-home border" href="index.html">Home</a>
                 <a class="nav-curriculum border" href="accademic_curr.html">Accademic Curriculumn</a>
-                <a class="nav-formFilUp border" href="form_fill_up.html">Form Fill-Up</a>
-                <a class="nav-result border" href="#">Result</a>
-                <a class="nav-log_in border" href="log_in.html">Login/LogOut</a>
+                <a class="nav-formFilUp border" href="index.html">Form Fill-Up</a>
+                <a class="nav-result border" href="index.html">Result</a>
+                <a class="nav-log_in border" href="index.html">LogOut</a>
 
                 <i class="fa-regular fa-user"></i>
             </div>
         </div>
     </header>
-    <div class="main">
 
-        <div class="registration-form">
-            <form>
-                <h3>Registration Form</h3>
-                <div class="in-st-name">
-                    <p>Student Name: </p>
-                    <input type="text" placeholder="e.g- Md.Nahimul Islam" class="st-name" required />
-                </div>
-                <div class="in-f-name">
-                    <p>Father's Name:</p>
-                    <input type="text" placeholder="e.g- Md XYZ" class="f-name" required/>
-                </div>
-                <div class="in-m-name">
-                    <p>Mother's Name:</p>
-                    <input type="text" class="m-name" placeholder="e.g- Mst ABC" required />
-                </div>
-                <div class="in-dept-name">
-                    <p>Department: </p>
-                    <input type="text" placeholder="e.g- Information and Communication Engineering" class="dept-name" required />
-                </div>
-                <div class="in-session">
-                    <p>Session:</p> <input type="text" placeholder="e.g- 2018-19" class="session" required />
-                </div>
-                <div class="in-roll">
-                    <p>Roll Number:</p> 
-                    <input type="text" placeholder="e.g- 1911077121" class="roll" required />
-                </div>
-                <div class="in-reg">
-                    <p>Registration Number:</p> 
-                    <input type="text" placeholder="e.g- 1911077121" class="reg" required />
-                </div>
-                <div class="in-mobile">
-                    <p>Mobile: </p>
-                    <input type="text" placeholder="0177*****02" class="mobile" required />
-                </div>
-                <div class="in-email">
-                    <p>E-mail: </p>
-                    <input type="text" placeholder="asdf12@gmail.com" class="mobile" required />
-                </div>
-                <div class="in-password">
-                    <p>Password</p>
-                    <input type="password" placeholder="Password" class="password" required />
-                </div>
-                <div class="in-cn-password">
-                    <p>Confirm Password:</p>
-                    <input type="password" placeholder="Confirm password" class="cn-password" required/>
-                </div>
-    
-                <button type="submit" id="bt1">SUBMIT</button>
-                <div class="login">
-                    <p>Do have an account? <a href="log_in.html"> Login! </a> </p>
-                </div>
-            </form>
+   <div class="main">
+        <div class="wrapper">
+            <h2>Student Login</h2>
+            <div class="input-box">
+                <input type="text" placeholder="Student Id" class="s-id" required/>
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="password" class="password" required/>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="remember-forgot">
+                <label> <input type="checkbox" > Remember me!</label>
+                <label> <a href=""> Forgot Password? </a> </label>
+            </div>
+
+            <div class="btn">
+                <button type="submit" value="Submit">
+                    <i class="fa fa-sign-in"></i> Login
+                </button>
+            </div>
+            <div class="register">
+                <p>Don't have an account? <a href="registration.html"> Register! </a> </p>
+            </div>
         </div>
-    </div>
+   </div>
 
+   <footer>
+    <h3>Group Member</h3>
+    <p>Nahimul Islam</br>Fuad Hasan</br>Taj Islamul haque</br>Forhad Hossain</br>Shahnewaz Saiham</br>Mahfuzur Rahman</br>Akash
+        Ghosh</br>Sahria Akter</br>Mehbub Islam</p>
 
-    <footer>
-        <h3>Group Member</h3>
-        <p>Nahimul Islam</br>Fuad Hossain</br>Taj Islamul hauk</br>Forhad</br>Shaiham</br>Mahfuzur Rahman</br>Akash
-            Ghosh</br>Shahrier</br>Mehbub</p>
-
-    </footer>
+</footer>
 </body>
 
 </html>

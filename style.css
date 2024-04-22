@@ -91,6 +91,12 @@ form input{
     color:white;
     padding-left: .5rem; 
 }
+.registration-form .in-session{
+    position:relative;
+    margin:.25rem auto;
+    font-size:1rem;
+    font-weight: 50;
+}
 
 .registration-form form input::placeholder{
     color:rgb(242, 219, 41);
