@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Process</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-left">
+                <img class="nav-logo border" src="./Logo_of_rajshahi_university.jpg" />
+                <h1> University of Rajshahi</h1>
+            </div>
+            <div class="nav-right">
+                <a class="nav-home border" href="#">Home</a>
+                <a class="nav-info border" href="personal_info.html">Personal Information</a>
+                <a class="nav-curriculum border" href="accademic_curr.html">Accademic Curriculumn</a>
+                <a class="nav-formFilUp border" href="form_fill_up.html">Form Fill-Up</a>
+                <a class="nav-result border" href="#">Result</a>
+                <a class="nav-log_in border" href="log_in.html">Login/LogOut</a>
+
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+
+        <div class="registration-form">
+            <form>
+                <h3>Registration Form</h3>
+                <div class="in-st-name">
+                    <p>Student Name: </p>
+                    <input type="text" placeholder="e.g- Md.Nahimul Islam" class="st-name" required />
+                </div>
+                <div class="in-f-name">
+                    <p>Father's Name:</p>
+                    <input type="text" placeholder="e.g- Md XYZ" class="f-name" required/>
+                </div>
+                <div class="in-m-name">
+                    <p>Mother's Name:</p>
+                    <input type="text" class="m-name" placeholder="e.g- Mst ABC" required />
+                </div>
+                <div class="in-dept-name">
+                    <p>Department: </p>
+                    <input type="text" placeholder="e.g- Information and Communication Engineering" class="dept-name" required />
+                </div>
+                <div class="in-session">
+                    <p>Session:</p> <input type="text" placeholder="e.g- 2018-19" class="session" required />
+                </div>
+                <div class="in-roll">
+                    <p>Roll Number:</p> 
+                    <input type="text" placeholder="e.g- 1911077121" class="roll" required />
+                </div>
+                <div class="in-reg">
+                    <p>Registration Number:</p> 
+                    <input type="text" placeholder="e.g- 1911077121" class="reg" required />
+                </div>
+                <div class="in-mobile">
+                    <p>Mobile: </p>
+                    <input type="text" placeholder="0177*****02" class="mobile" required />
+                </div>
+                <div class="in-email">
+                    <p>E-mail: </p>
+                    <input type="text" placeholder="asdf12@gmail.com" class="mobile" required />
+                </div>
+                <div class="in-password">
+                    <p>Password</p>
+                    <input type="password" placeholder="Password" class="password" required />
+                </div>
+                <div class="in-cn-password">
+                    <p>Confirm Password:</p>
+                    <input type="password" placeholder="Confirm password" class="cn-password" required/>
+                </div>
     
+                <button type="submit" id="bt1">SUBMIT</button>
+                <div class="login">
+                    <p>Do have an account? <a href="log_in.html"> Login! </a> </p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+        <h3>Group Member</h3>
+        <p>Nahimul Islam</br>Fuad Hossain</br>Taj Islamul hauk</br>Forhad</br>Shaiham</br>Mahfuzur Rahman</br>Akash
+            Ghosh</br>Shahrier</br>Mehbub</p>
+
+    </footer>
 </body>
+
 </html>
