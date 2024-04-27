@@ -1,0 +1,76 @@
+/*For: form_fill_up.html */
+.fill-up button{
+    background-color: green;
+    color:white;
+    height:2.5rem;
+    width:15rem;
+    padding:.5rem;
+    font-size: 20px;
+    font-weight: 600;
+    border:1px solid gray;
+    border-radius: .75rem;
+}
+
+.fill-up tbody #bt1{
+     padding: .25rem;
+     height:2rem;
+}
+
+.fill-up{
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+
+.prev-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:80%;
+    margin:2rem auto;
+    
+}
+
+/*For : form.html */
+
+.form-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:80%;
+    margin:2rem auto;
+}
+
+.form-container button{
+    background-color: green;
+    color:white;
+    height:2.5rem;
+    width:15rem;
+    padding:.5rem;
+    font-size: 20px;
+    font-weight: 600;
+    border:1px solid gray;
+    border-radius: .75rem;
+
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;    
+    letter-spacing: 1px;
+    width:100%;
+    margin:1rem 0;
+    background-color: white;
+  }
+
+th{
+    background-color: rgb(228 240 245);
+  }
+
+th, td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
