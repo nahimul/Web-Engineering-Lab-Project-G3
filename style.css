@@ -78,7 +78,7 @@ html,body{
     justify-content: center; 
     color:white;
 }
-form input{
+.registration-form form input{
     width:100%;
     border-radius:.25rem;
     border: 1px solid lightgray;
@@ -102,7 +102,7 @@ form input{
 }
 
 
-form #bt1{
+.registration-form form #bt1{
     margin :2rem auto 0;
     background-color: green;
     border-radius: .25rem;
