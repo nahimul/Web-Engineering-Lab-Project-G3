@@ -1,0 +1,23 @@
+/*For: form_fill_up.html */
+.fill-up button{
+    background-color: green;
+    color:white;
+    height:2.5rem;
+    width:15rem;
+    padding:.5rem;
+    font-size: 20px;
+    font-weight: 600;
+    border:1px solid gray;
+    border-radius: .75rem;
+}
+.fill-up{
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+
+.prev-form{
+    display: flex;
+    margin:2rem auto;
+}
