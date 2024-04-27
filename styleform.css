@@ -11,10 +11,6 @@
     border-radius: .75rem;
 }
 
-.fill-up tbody #bt1{
-     padding: .25rem;
-     height:2rem;
-}
 
 .fill-up{
     color:white;
@@ -23,6 +19,17 @@
     padding: 2rem;
 }
 
+.prev-form tbody #bt1,#bt2{
+     padding: .25rem;
+     height:2rem;
+     width:5rem;
+     background-color: green;
+     border-radius: .25rem;
+     color:white;
+}
+.prev-form tbody #bt2{    
+    background-color: rgb(53, 92, 222);
+}
 .prev-form{
     display:flex;
     flex-direction: column;
@@ -52,8 +59,24 @@
     font-weight: 600;
     border:1px solid gray;
     border-radius: .75rem;
-
+    margin:2rem 0;
 }
+
+/* For form_fill_up_details.html */
+
+.prev-form tbody #bt3{
+    padding: .25rem;
+    height:2rem;
+    width:80%;
+    background-color: green;
+    border-radius: .35rem;
+    color:white;
+    font-weight: 600;
+}
+.prev-form tbody i{
+    margin-right:0.25rem;
+}
+
 
 table {
     border-collapse: collapse;
@@ -68,6 +91,7 @@ table {
 
 th{
     background-color: rgb(228 240 245);
+    text-align:left;
   }
 
 th, td {
