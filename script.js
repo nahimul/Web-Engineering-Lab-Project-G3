@@ -1,7 +1,9 @@
+let login= document.querySelector("#loginbtn");
 
-console.log("I love you");
+login.addEventListener("click",()=>{
+    alert("Login Successfully!");
+})
 
-let btn= document.querySelector("button");
 
 function loadPersonalInfo() {
     fetch('personal_info.html')
