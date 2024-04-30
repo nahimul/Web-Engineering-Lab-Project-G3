@@ -50,12 +50,13 @@ hr{
 }
 
 .sign{
-    margin-top:3rem;
+    margin-top:1rem;
     position: relative;
     display:flex;
     justify-content:center;
     align-items:flex-end;
     flex-direction: column;
+    gap:-10px;
 }
 
 .sign p{
